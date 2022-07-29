@@ -1,4 +1,4 @@
-# This 2 can change with the whatever version of R the app was built
+# This 3 can change with the whatever version of R the app was built
 # sets the base image and OS on which the entire computer will be built
 FROM rocker/shiny:latest
 
