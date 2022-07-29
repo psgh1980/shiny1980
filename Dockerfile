@@ -13,7 +13,7 @@ RUN install2.r tidyverse\
     ## clean up
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
-# The1 /app and /srv/shiny-server/ are two different arguments that relate to your local file and the 
+# The /app and /srv/shiny-server/ are two different arguments that relate to your local file and the 
 # file path in the container; not to be read as one string. 
 # Copy files from the app folder /app into the docker image file location /srv/shiny-server/ 
 COPY /app /srv/shiny-server/
